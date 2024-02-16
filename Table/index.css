@@ -1,0 +1,17 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover {
+    background-color: rgb(61, 223, 185);
+}
+body{
+    padding: 20px;
+    background-color: rgb(236, 223, 248);
+}
+#main{
+    background-color: lightgreen;
+}
