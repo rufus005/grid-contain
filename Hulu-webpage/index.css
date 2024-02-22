@@ -1,0 +1,64 @@
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Reset box-sizing and margin properties for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,body {
+ font-family: 'Rubik', sans-serif;
+ background-color: #000;
+ color: white;
+ line-height: 1.7;
+ overflow-x: hidden;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ccc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img{
+  width: 100%;
+}
+.header {
+  height: 530px;
+  background: url(./hulu-logo-streaming.webp);
+}
+
+.header nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+}
+
+.header nav .login-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #ccc;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header .logo {
+  width: 270px;
+  margin: 270px 0;
+}
+
+.header .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
